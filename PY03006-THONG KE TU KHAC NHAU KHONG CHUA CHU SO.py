@@ -1,0 +1,171 @@
+"""
+Cho một đoạn văn bản có N dòng trong đó có thể có các dấu câu như dẩy phẩy (,) dấu chấm (.) dấu chấm hỏi (?) dấu chấm cảm (!) dấu hai chấm (:) dấu chấm phẩy (;) dấu ngoặc đơn, dấu gạch ngang (-), dấu gạch chéo (/). 
+Hãy liệt kê các từ khác nhau xuất hiện trong đoạn văn bản theo thứ tự số lần xuất hiện giảm dần.
+Chú ý:
+Khi thống kê thì không phân biệt chữ hoa, chữ thường.
+Bỏ qua các dấu câu đã liệt kê ở trên khi tách từ
+Tất cả các chữ số không được xem xét khi đếm. Nếu trong một từ có chữ số thì các chữ số đó cũng sẽ bị bỏ qua.
+Input
+Dòng đầu ghi số N không quá 1000.
+Tiếp theo là N dòng mô tả văn bản. Mỗi dòng không quá 500 ký tự.
+Output
+Ghi ra danh sách các từ (ở dạng in thường) theo thứ tự số lần xuất hiện giảm dần.
+Trong trường hợp số lần xuất hiện bằng nhau thì liệt kê theo thứ tự từ điển tăng dần.
+Input
+3
+PTIT duy tri hoc phi on dinh nam 2019 va khong tang trong nam 2020-2021 va 2021-2022!
+Khi dich benh xuat hien PTIT trich hon 6 ty dong ho tro sinh vien PTIT
+voi muc ho tro 500000 dong/sinh vien PTIT.
+Output
+ptit 4
+dong 2
+ho 2
+nam 2
+sinh 2
+tro 2
+va 2
+vien 2
+benh 1
+dich 1
+dinh 1
+duy 1
+hien 1
+hoc 1
+hon 1
+khi 1
+khong 1
+muc 1
+on 1
+phi 1
+tang 1
+tri 1
+trich 1
+trong 1
+ty 1
+voi 1
+xuat 1
+"""
+
+from math import *
+
+import re
+     
+if __name__ == '__main__':
+    mp={}
+    n=int(input())
+    for _ in range (n):
+        s=input().lower()
+        a=re.findall(r"[a-zA-Z]+",s)
+        for i in a:
+            mp[i.lower()]=mp.get(i.lower(),0)+1
+    ds=dict(sorted(mp.items(), key=lambda x: (-x[1],x[0])))
+    for x, y in ds.items():
+        print(x,y)
+
+            
+
+
+
+    
+
+
+    
+
+
+
+        
+
+
+    
+
+
+        
+    
+
+
+
+
+    
+
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+        
+            
+       
+ 
+        
+        
+            
+       
+ 
+        
+            
+       
+ 
+        
+            
+       
+ 
+            
+       
+ 
+
+        
+
+        
+
+                
+        
+
+
+                
+    
+    
+    
+
+
+
+
+
+
+
+        
+        
+        
+        
+
+                
