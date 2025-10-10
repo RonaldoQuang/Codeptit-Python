@@ -1,4 +1,3 @@
-from math import *
 """
 Một số nguyên dương được gọi là ưu thế nguyên tố nếu thỏa mãn cả hai điều kiện:
 Số chữ số của nó là một số nguyên tố
