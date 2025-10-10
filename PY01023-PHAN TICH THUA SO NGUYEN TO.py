@@ -1,4 +1,3 @@
-from math import *
 """
 Cho số nguyên dương N. Hãy phân tích N thành tích các thừa số nguyên tố. 
 Kết quả được in ra theo mẫu trong ví dụ, trong đó thêm số thừa số 1 (không phải nguyên tố) ở đầu kết quả phân tích.
@@ -16,6 +15,7 @@ Output
 1 * 2^2 * 5^2
 1 * 2^1 * 617^1
 """
+from math import *
 
 if __name__ == '__main__':
     for _ in range(int(input())):
