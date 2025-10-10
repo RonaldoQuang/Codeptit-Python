@@ -1,4 +1,3 @@
-from math import *
 """
 Cho một xâu ký tự có thể có các ký tự chữ cái và chữ số. 
 Người ta thực hiện một phép mã hóa đơn giản, trong đó đếm từ trái qua phải các ký tự giống nhau liên tiếp và viết số đếm trước ký tự đó.
@@ -18,6 +17,8 @@ Output
 6114171g
 101
 """
+from math import *
+
 if __name__ == '__main__':
     for _ in range (int(input())):
         w=input()
