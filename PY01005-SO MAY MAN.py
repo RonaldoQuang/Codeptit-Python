@@ -1,3 +1,18 @@
+"""
+Chữ số 4 và chữ số 7được xem là các chữ số may mắn.
+Cho số nguyên dương N có không quá 18 chữ số. 
+Hãy đếm xem số chữ số 4 cộng với số chữ số 7 trong N có phải bằng 4 hay bằng 7 hay không.
+Input
+Chỉ có số N
+Output
+Ghi ra YES hoặc NO tùy thuộc kết quả kiểm tra
+Input
+40047
+7747774
+Output
+NO
+YES
+"""
 
 if __name__ == '__main__':
     s=list(input())
