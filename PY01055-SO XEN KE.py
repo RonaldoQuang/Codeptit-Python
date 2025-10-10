@@ -1,4 +1,3 @@
-from math import *
 """
 Một số được gọi là xen kẽ nếu thỏa mãn cả ba tính chất sau:
 Số chữ số là số lẻ
