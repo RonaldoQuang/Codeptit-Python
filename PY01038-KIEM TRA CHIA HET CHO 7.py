@@ -24,22 +24,29 @@ Output
 999999
 """
 
+from math import *
+
+def dao(n):
+    rev=0
+    while n!=0:
+        rev=rev*10+n%10
+        n//=10
+    return rev
+    
 if __name__ == '__main__':
-    for _ in range(int(input())):
-        n = int(input())
-        print("1 * ",end="")
-        for i in range (2,int(sqrt(n)+1)):
-            cnt=0
-            while n%i==0:
-                cnt+=1
-                n//=i
-            if cnt and n!=1:
-                print(i,"^",cnt," * ",sep="",end="")
-            elif cnt and n==1:
-                print(i,"^",cnt,sep="",end="")
-        if n!=1:
-            print(n,"^1",sep="",end="")
-        print()
+    for _ in range (int(input())):
+        n=int(input())
+        cnt=0
+        while n%7!=0 and cnt<=1000:
+            n=n+dao(n)
+            cnt+=1
+        if cnt<= 1000:
+            print(n)
+        else:
+            print("-1")
+            
+       
+    
 
         
 
