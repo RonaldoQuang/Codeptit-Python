@@ -1,4 +1,3 @@
-from math import *
 """
 Một xâu ký tự là xâu palindrome là một xâu khác rỗng mà nếu lật ngược xâu ấy ta thu được xâu ban đầu. 
 Ví dụ các xâu abcba, dd là xâu palindrome, trong khi các xâu abc, ptit thì không phải.
