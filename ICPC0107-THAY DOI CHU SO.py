@@ -1,4 +1,3 @@
-from math import *
 """
 Cho hai số nguyên dương X1, X2. 
 Ta chỉ được phép thay đổi chữ số p thành chữ số q và ngược lại chữ. 
