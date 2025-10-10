@@ -1,4 +1,3 @@
-from math import *
 """
 Cho số nguyên dương N có thể rất lớn nhưng không quá 500 chữ số.
 Hãy tính tích các chữ số của N. Chú ý bỏ qua các chữ số 0 nếu có. 
