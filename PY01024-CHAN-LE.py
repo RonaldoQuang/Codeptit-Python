@@ -1,4 +1,3 @@
-from math import *
 """
 Cho số nguyên dương N. Hãy kiểm tra xem N có thỏa mãn đồng thời hai tính chất sau đây hay không?
 Tổng chữ số của N chia hết cho 10
@@ -15,6 +14,8 @@ Output
 YES
 NO
 """
+from math import *
+
 def tong(s):
     sum=0
     for i in range (len(s)):
