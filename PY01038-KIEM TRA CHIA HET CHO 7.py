@@ -1,4 +1,3 @@
-from math import *
 """
 Cho một số nguyên dương N. 
 Mỗi bước bạn thực hiện tính tổng của N với giá trị số đảo ngược của N. 
