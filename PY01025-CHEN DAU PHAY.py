@@ -1,4 +1,3 @@
-from math import *
 """
 Khi  viết giá trị số nguyên trong Tiếng Anh, người ta thường thêm dấu phẩy để phân tách các nhóm 3 chữ số (tính từ cuối). 
 Ví dụ số 153920529 được viết lại thành 153,920,529.
@@ -12,6 +11,7 @@ Input
 Output
 123,456,789
 """
+from math import *
 
 if __name__ == '__main__':
     s=list(input()[::-1])
