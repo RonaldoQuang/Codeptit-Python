@@ -48,7 +48,7 @@ if __name__ == '__main__':
         n=int(input())
         sum=0
         x=[]
-        cnt=Try(x,n,sum)
+        Try(x,n,sum)
         print(len(x))
         for i in range (len(x)):
             print(x[i],end=" ")
