@@ -1,4 +1,3 @@
-from math import *
 """
 Trong toán học, cặp số (a,b) được gọi là nguyên tố cùng nhau nếu ước số chung lớn nhất của a và b bằng 1.
 
@@ -17,6 +16,7 @@ Output
 NO
 YES
 """
+from math import *
 
 if __name__ == '__main__':
     for _ in range(int(input())):
