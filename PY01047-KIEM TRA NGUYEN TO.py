@@ -1,4 +1,3 @@
-from math import *
 """
 Cho số nguyên dương N có không quá 500 chữ số.
 Hãy kiểm tra xem 4 chữ số cuối cùng ghép lại có tạo thành một số nguyên tố hay không.
