@@ -1,4 +1,3 @@
-from math import *
 """
 Cho một số nguyên dương không quá 500 chữ số.
 Hãy kiểm tra xem số đó có thỏa mãn đồng thời ba tính chất sau hay không?
