@@ -11,7 +11,6 @@ Input
 Lap trinh huong doi tuong
 Ngon ngu lap trinh C++
 Output
-224225
 c++ doi huong lap ngon ngu trinh tuong
 lap trinh
 """
