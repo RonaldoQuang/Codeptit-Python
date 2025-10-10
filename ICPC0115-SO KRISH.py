@@ -1,4 +1,3 @@
-from math import *
 """
 Một số nguyên dương N được gọi là số Krish nếu tổng giai thừa các chữ số của N bằng chính nó. Ví dụ N = 145 = 1! + 4! + 5! = 145 là một số Krish. 
 Cho số nguyên dương N, hãy kiểm tra N có phải là một số Krish hay không? Đưa ra “Yes” nếu N là một số Krish, ngược lại đưa ra “No”.
@@ -18,6 +17,7 @@ NO
 """
 
 from math import *
+
 def gt(n):
     if n==0 or n==1:
         return 1
