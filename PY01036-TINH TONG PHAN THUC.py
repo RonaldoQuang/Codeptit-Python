@@ -1,4 +1,3 @@
-from math import *
 """
 Nhập số nguyên dương N (1 < N < 10000).
 Viết chương trình tính tổng:
