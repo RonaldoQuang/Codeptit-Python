@@ -22,8 +22,7 @@ if __name__ == '__main__':
     for _ in range (int(input())): 
         n, m=map(int,input().split())
         s=list(map(int,input().split()))
-        a=[]
-        b=[]
+        a, b=[], []
         for i in s:
             if i<0:
                 b.append(i)
