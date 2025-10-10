@@ -1,4 +1,3 @@
-from math import *
 """
 Cho mảng A[] gồm N số nguyên và số tự nhiên d.    
 Hãy thực hiện quay mảng A[] với d phần tử từ phải qua trái. Ví dụ A[] = {1, 2, 3, 4, 5}, d = 2 ta nhận được mảng A[] = {3, 4, 5, 1, 2}.
