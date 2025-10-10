@@ -1,4 +1,3 @@
-from math import *
 """
 Cho dãy số A[] chỉ bao gồm các số nguyên dương. Người ta thu gọn dần dãy số bằng cách loại bỏ các cặp phần tử kề nhau mà có tổng là chẵn. 
 Sau khi cặp phần tử đó bị loại ra thì dãy số được dồn lại. 
