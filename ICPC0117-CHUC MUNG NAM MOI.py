@@ -1,4 +1,3 @@
-from math import *
 """
 Tí năm nay đã lên lớp 1 rồi, Tết đến Tí rất vui vì nhận được rất nhiều lời chúc.
 Vì mới tập viết nên Tí đã ghi lại tất cả các lời chúc đó. 
