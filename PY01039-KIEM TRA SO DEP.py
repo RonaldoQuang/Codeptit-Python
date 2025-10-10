@@ -1,4 +1,3 @@
-from math import *
 """
 Một số nguyên dương được gọi là đẹp nếu số đó chỉ có hai chữ số khác nhau và các chữ số ở cách nhau 2 vị trí đều bằng nhau. 
 Ví dụ: 121, 1313131, 5656 …
@@ -18,22 +17,28 @@ NO
 NO
 """
 
+from math import *
+    
 if __name__ == '__main__':
-    for _ in range(int(input())):
-        n = int(input())
-        print("1 * ",end="")
-        for i in range (2,int(sqrt(n)+1)):
-            cnt=0
-            while n%i==0:
-                cnt+=1
-                n//=i
-            if cnt and n!=1:
-                print(i,"^",cnt," * ",sep="",end="")
-            elif cnt and n==1:
-                print(i,"^",cnt,sep="",end="")
-        if n!=1:
-            print(n,"^1",sep="",end="")
-        print()
+    for _ in range (int(input())):
+        s=list(input())
+        ok=1
+        for i in range (2,len(s)):
+            if i%2==0:
+                if s[i]!=s[0]:
+                    ok=0
+                    break
+            else:
+                if s[i]!=s[1]:
+                    ok=0
+                    break
+        if ok:
+            print("YES")
+        else:
+            print("NO")
+            
+       
+ 
 
         
 
