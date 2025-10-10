@@ -21,21 +21,14 @@ Output
 from math import *
 
 if __name__ == '__main__':
-    for _ in range(int(input())):
-        n = int(input())
-        print("1 * ",end="")
-        for i in range (2,int(sqrt(n)+1)):
-            cnt=0
-            while n%i==0:
-                cnt+=1
-                n//=i
-            if cnt and n!=1:
-                print(i,"^",cnt," * ",sep="",end="")
-            elif cnt and n==1:
-                print(i,"^",cnt,sep="",end="")
-        if n!=1:
-            print(n,"^1",sep="",end="")
-        print()
+    l, r=map(int,input().split())
+    for i in range (l,r-1):
+        for j in range (i+1,r):
+            for k in range (j+1,r+1):
+                if gcd(i,j)==1 and gcd(j,k)==1 and gcd(k,i)==1:
+                    print("(",i,", ",j,", ",k,")",sep="")
+       
+    
 
         
 
