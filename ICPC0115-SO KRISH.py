@@ -22,8 +22,7 @@ def gt(n):
     if n==0 or n==1:
         return 1
     else:
-        return n*gt(n-1)
-    
+        return n*gt(n-1)   
     
 if __name__ == '__main__':
     for _ in range (int(input())):
