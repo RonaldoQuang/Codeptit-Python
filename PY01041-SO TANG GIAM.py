@@ -1,4 +1,3 @@
-from math import *
 """
 Một số nguyên dương được gọi là số tăng giảm nếu thỏa mãn các điều kiện:
 Có từ 3 chữ số trở lên
