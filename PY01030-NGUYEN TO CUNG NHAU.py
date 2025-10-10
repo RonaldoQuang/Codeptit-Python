@@ -1,4 +1,3 @@
-from math import *
 """
 Một cặp số nguyên dương (a,b) được gọi là nguyên tố cùng nhau nếu a và b có ước chung lớn nhất bằng 1.
 Cho hai số nguyên dương N và K trong đó 10 < N < 10000; 1 < K < 6.
