@@ -1,4 +1,3 @@
-from math import *
 """
 Bài toán Tháp Hà Nội đã rất nổi tiểng. 
 Bắt đầu có các đĩa xếp chồng lên cột A theo thứ tự kích thước giảm dần, nhỏ nhất ở trên cùng. Cột B và cột C ban đầu không có đĩa nào cả.
