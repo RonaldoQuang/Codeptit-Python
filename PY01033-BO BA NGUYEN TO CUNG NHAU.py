@@ -1,4 +1,3 @@
-from math import *
 """
 Một cặp số nguyên dương (a,b) được gọi là nguyên tố cùng nhau nếu a và b có ước chung lớn nhất bằng 1. 
 Một bộ ba số (a, b, c) được gọi là bộ ba nguyên tố cùng nhau nếu a < b < c và các cặp (a,b), (b,c), (a,c) đều nguyên tố cùng nhau.
@@ -18,6 +17,8 @@ Output
 (17, 18, 19)
 (17, 19, 20)
 """
+
+from math import *
 
 if __name__ == '__main__':
     for _ in range(int(input())):
