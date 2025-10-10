@@ -1,4 +1,3 @@
-from math import *
 """
 Cho xâu ký tự có độ dài n bao gồm các ký tự từ a, b, …, z và các số từ 0 đến 9. 
 Nhiệm vụ của bạn là tìm số nhỏ nhất xuất hiện trong xâu. Ví dụ với xâu X[]=”12ab29cd19” ta có kết quả là 12.
@@ -17,6 +16,7 @@ Output
 29
 456
 """
+from math import *
 
 if __name__ == '__main__':
     for _ in range (int(input())):
