@@ -38,7 +38,6 @@ def Try(i, n, k):
             Try(j,n,k)
         b.pop()
 
-
 if __name__ == '__main__':
     n, k=map(int,input().split())
     s=list(input().split())
